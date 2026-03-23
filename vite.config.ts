@@ -12,6 +12,7 @@ export default defineConfig({
       brotliSize: true,
     }),
   ],
+  base: '/portfolio/',
   build: {
     rollupOptions: {
       output: {
