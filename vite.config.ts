@@ -6,7 +6,7 @@ export default defineConfig({
   plugins: [
     react(),
     visualizer({
-      filename: 'dist/stats.html',
+      filename: 'build/stats.html',
       open: true,
       gzipSize: true,
       brotliSize: true,
